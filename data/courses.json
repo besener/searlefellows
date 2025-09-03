@@ -1,26 +1,26 @@
 [
   {
-    "code": "EDU 201",
-    "title": "Foundations of Learning",
+    "code": "AH 200",
+    "title": "Course Name",
     "level": "undergraduate",
-    "term": "Fall 2024",
-    "description": "Principles of learning science; inclusive course design; formative assessment.",
+    "term": "Fall 2023",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "syllabus_url": "#"
   },
   {
-    "code": "EDU 510",
-    "title": "Teaching in Higher Ed",
-    "level": "graduate",
-    "term": "Spring 2025",
-    "description": "Evidence-based pedagogy, student motivation, and reflective practice.",
-    "syllabus_url": "#"
-  },
-  {
-    "code": "DIGH 320",
-    "title": "Digital Humanities Studio",
+    "code": "AH 300",
+    "title": "Course Name",
     "level": "undergraduate",
     "term": "Spring 2024",
-    "description": "Project-based exploration of digital methods for humanities research.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "syllabus_url": "#"
+  },
+  {
+    "code": "AH 400",
+    "title": "Digital Art History",
+    "level": "graduate",
+    "term": "Spring 2025",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "syllabus_url": "#"
   }
 ]
