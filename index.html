@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home — Academic ePortfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <meta name="description" content="Academic ePortfolio for teaching and learning in higher education." />
+  <meta name="author" content="" id="meta-author" />
+
+  <!-- Social -->
+  <meta property="og:title" content="ePortfolio" id="og-title" />
+  <meta property="og:description" content="Teaching & learning portfolio" id="og-description" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/avatar.svg" id="og-image" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preload" href="styles/style.css" as="style" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="scripts/main.js"></script>
+  <script defer src="scripts/render.js"></script>
+
+</head>
+<body data-page="index">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-logo" aria-hidden="true">📚</span>
+          <span class="brand-name" id="site-title">ePortfolio</span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a data-active="index" href="index.html">Home</a></li>
+            <li><a data-active="teaching" href="teaching.html">Teaching</a></li>
+            <li><a data-active="portfolio" href="portfolio.html">Portfolio</a></li>
+            <li><a data-active="research" href="research.html">Research</a></li>
+            <li><a data-active="cv" href="cv.html">CV</a></li>
+            <li><a data-active="contact" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌓</button>
+      </div>
+    </header>
+
+  <main id="main" class="wrap flow">
+    <section class="hero">
+      <img class="avatar" src="assets/images/avatar.svg" alt="Portrait" />
+      <div>
+        <h1 id="home-title">Hello! I'm <span id="author-name">Your Name</span></h1>
+        <p id="tagline">Educator • Researcher • Mentor</p>
+        <p id="home-bio">I teach, research, and build supportive learning spaces in higher education.</p>
+        <p><a class="button" href="cv.html">View my CV</a> <a class="button ghost" href="contact.html">Contact</a></p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Highlights</h2>
+        <ul id="highlights"></ul>
+      </article>
+      <article class="card">
+        <h2>Recent Artifacts</h2>
+        <ul id="recent-artifacts"></ul>
+      </article>
+      <article class="card">
+        <h2>Courses</h2>
+        <ul id="recent-courses"></ul>
+      </article>
+    </section>
+  </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="copyright">© <span id="year"></span> <span id="author"></span>. All rights reserved.</p>
+        <ul class="social" id="socialLinks" aria-label="Social links"></ul>
+      </div>
+    </footer>
+
+</body>
+</html>
