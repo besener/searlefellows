@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Welcome Page",
+    "description": "A bio focused on who I am as an educator and my goals while in the Searle Fellows program.",
+    "course": "",
+    "term": "2025",
+    "tags": [
+      "bio",
+      "goals",
+      "fellowship"
+    ],
+    "url": "#"
+  },
+  {
+    "title": "Before Teaching Statement",
+    "description": "The statement submitted with my Searle Fellows application.",
+    "course": "",
+    "term": "2025",
+    "tags": [
+      "teaching-statement",
+      "reflection",
+      "before"
+    ],
+    "url": "#"
+  },
+  {
+    "title": "Revised Teaching Statement",
+    "description": "A revised statement that reflects my learning and growth based on experiences throughout the Searle Fellows program.",
+    "course": "",
+    "term": "2025",
+    "tags": [
+      "teaching-statement",
+      "reflection",
+      "revised"
+    ],
+    "url": "#"
+  },
+  {
+    "title": "Learning & Teaching Project",
+    "description": "Includes process components, the final project, and the public presentation completed during the Searle Fellows program.",
+    "course": "",
+    "term": "2025",
+    "tags": [
+      "project",
+      "fellowship",
+      "presentation"
+    ],
+    "url": "#"
+  }
+]

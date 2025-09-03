@@ -1,0 +1,40 @@
+{
+  "title": "Dr. Sample \u2014 ePortfolio",
+  "author": "Dr. Sample",
+  "tagline": "Teaching \u2022 Learning \u2022 Equity",
+  "bio": "I am a higher-education educator focused on active learning, equitable assessment, and evidence-based pedagogy.",
+  "profile_image": "assets/images/avatar.svg",
+  "cv_url": "#",
+  "social": [
+    {
+      "label": "Email",
+      "url": "mailto:you@example.edu"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/"
+    }
+  ],
+  "highlights": [
+    "2025 Teaching Award, College of Arts",
+    "Developed inquiry-based lab curriculum",
+    "Led department assessment initiative",
+    "Mentored 20+ undergraduate researchers",
+    "Co-authored OER module on data ethics"
+  ],
+  "cv_summary": [
+    "Ph.D., Example University (2019)",
+    "Assistant Professor, Example State University (2020\u2013present)",
+    "Areas: pedagogy, digital humanities, assessment",
+    "Courses: Intro to X, Capstone in Y"
+  ],
+  "googleAnalyticsId": "G-XXXXXXXXXX"
+}
