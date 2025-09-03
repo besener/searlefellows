@@ -1,4 +1,4 @@
-#searlefellows
+#searlefellowsprogram
 
 The 2025-26 Searle Fellows Program
 
