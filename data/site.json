@@ -1,8 +1,8 @@
 {
-  "title": "Dr. Sample \u2014 ePortfolio",
-  "author": "Dr. Sample",
-  "tagline": "Teaching \u2022 Learning \u2022 Equity",
-  "bio": "I am a higher-education educator focused on active learning, equitable assessment, and evidence-based pedagogy.",
+  "title": "Dr. Name Lastname \u2014 ePortfolio",
+  "author": "Dr. Lastname",
+  "tagline": "Teaching \u2022 Learning \u2022 Assessment",
+  "bio": "I am a professor focused on active learning, equitable assessment, and evidence-based pedagogy.",
   "profile_image": "assets/images/avatar.svg",
   "cv_url": "#",
   "social": [
@@ -31,10 +31,10 @@
     "Co-authored OER module on data ethics"
   ],
   "cv_summary": [
-    "Ph.D., Example University (2019)",
-    "Assistant Professor, Example State University (2020\u2013present)",
-    "Areas: pedagogy, digital humanities, assessment",
-    "Courses: Intro to X, Capstone in Y"
+    "Ph.D., Name University (YYYY)",
+    "Assistant Professor, Name Your University (2025-present)",
+    "Areas: art history, digital humanities, pedaogy, assessment",
+    "Courses: Intro to Lorem Ipsum, Capstone in Lorem Ipsum"
   ],
   "googleAnalyticsId": "G-XXXXXXXXXX"
 }
