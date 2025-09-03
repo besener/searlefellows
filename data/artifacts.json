@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Transparent Assignment: Community Oral History",
+    "description": "Students conduct and transcribe interviews, then publish reflective essays.",
+    "course": "DIGH 320",
+    "term": "Spring 2024",
+    "tags": [
+      "assignment",
+      "reflection",
+      "community-engaged"
+    ],
+    "url": "#"
+  },
+  {
+    "title": "OER: Data Visualization Primer",
+    "description": "An open module introducing basic chart types and critique for humanistic data.",
+    "course": "EDU 201",
+    "term": "Fall 2024",
+    "tags": [
+      "OER",
+      "accessibility",
+      "visualization"
+    ],
+    "url": "#"
+  },
+  {
+    "title": "Inclusive Syllabus Redesign",
+    "description": "Revised policies for transparency, flexibility, and student wellness.",
+    "course": "EDU 510",
+    "term": "Spring 2025",
+    "tags": [
+      "syllabus",
+      "UDL",
+      "policy"
+    ],
+    "url": "#"
+  }
+]
