@@ -38,15 +38,29 @@ a:hover {
 /* ==============================
    Navigation Links
    ============================== */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;                 /* Space between buttons */
+  flex-wrap: wrap;           /* Wrap on small screens */
+  margin-top: 1rem;
+  margin-bottom: 3rem;       /* Space between nav and body */
+}
+
 nav a {
-  margin: 0 10px;                        /* Horizontal spacing between nav links */
   text-decoration: none;                  /* Remove underline initially */
   color: #333;                            /* Dark link color */
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  transition: all 0.25s ease;
 }
 
 nav a:hover {
-  color: #5f6db3;                        /* Blue hover for interactivity */
-  text-decoration: underline;             /* Underline appears on hover */
+  color: white;
+  background-color: #5f6db3;               /* Blue hover for interactivity */
+  text-decoration: none;
 }
 
 /* ==============================
