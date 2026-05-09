@@ -42,7 +42,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;                 /* Space between buttons */
+  gap: 0.45rem;                 /* Space between buttons */
+  font-size: 0.8rem;           /* smaller font */
   flex-wrap: nowrap;           /* Wrap on small screens */
   margin-top: 1rem;
   margin-bottom: 3rem;       /* Space between nav and body */
