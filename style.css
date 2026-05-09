@@ -42,20 +42,21 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.45rem;                 /* Space between buttons */
-  font-size: 0.8rem;           /* smaller font */
-  flex-wrap: nowrap;           /* Wrap on small screens */
+  gap: 0.45rem;                          /* Space between buttons */
+  flex-wrap: nowrap;                     /* No wrap on small screens */
   margin-top: 1rem;
-  margin-bottom: 3rem;       /* Space between nav and body */
+  margin-bottom: 3rem;                   /* Space between nav and body */
+  overflow-x: auto;                      /* keeps it usable on small screens */
 }
 
 nav a {
   text-decoration: none;                  /* Remove underline initially */
   color: #333;                            /* Dark link color */
-  padding: 0.6rem 1rem;
   padding: 0.35rem 0.6rem;                /* Slightly smaller buttons */
   border-radius: 3px;
   background-color: #f2f2f2;
+  font-size: 0.8rem;                      /* Smaller font */
+  white-space: nowrap;
   transition: all 0.25s ease;
 }
 
