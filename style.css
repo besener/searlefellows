@@ -232,3 +232,15 @@ article p {
   font-weight: bold;            /* Slightly bolder for visibility */
   transition: color 0.2s, text-decoration 0.2s; /* Smooth hover transition */
 }
+
+/* ==============================
+   PDF Viewer
+   ============================== */
+iframe {
+  width: 100%;
+  height: 80vh;          /* better than fixed 700px */
+  border: none;          /* removes ugly frame border */
+  margin-top: 1rem;
+  border-radius: 6px;    /* subtle modern polish */
+}
+
