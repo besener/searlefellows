@@ -236,7 +236,7 @@ article p {
 /* ==============================
    PDF Viewer
    ============================== */
-iframe {
+.pdf-section iframe {
   width: 100%;
   height: 80vh;          /* better than fixed 700px */
   border: none;          /* removes ugly frame border */
