@@ -1,0 +1,217 @@
+/* ==============================
+   Base Styles
+   ============================== */
+body {
+  font-family: Georgia, serif;           /* Elegant serif for readability */
+  max-width: 800px;                      /* Constrain width for comfortable reading */
+  margin: 2rem auto;                     /* Center content vertically & horizontally */
+  padding: 1rem;                         /* Inner padding for breathing room */
+  line-height: 1.6;                      /* Comfortable line height */
+  background: #fdfcf7;                   /* Soft parchment-like background */
+  color: #333;                           /* Dark grey text for contrast */
+}
+
+header {
+  text-align: center;                    /* Center blog title & description */
+  margin-bottom: 2rem;                   /* Space between header and content */
+}
+
+h1 {
+  font-size: 2.5rem;                     /* Large blog title */
+  margin-bottom: 0.2rem;                 /* Small gap before subtitle */
+}
+
+/* ==============================
+   Hyperlinks
+   ============================== */
+a {
+  text-decoration: none;                /* Remove underline initially */
+  color: #333;                          /* Default link color */
+  transition: color 0.25s ease, text-decoration 0.25s ease; /* Smooth color change on hover */
+}
+
+a:hover {
+  color: #5f6db3;                       /* Accent hover color */
+  text-decoration: underline;           /* Underline only on hover */
+}
+
+/* ==============================
+   Navigation Links
+   ============================== */
+nav a {
+  margin: 0 10px;                        /* Horizontal spacing between nav links */
+  text-decoration: none;                  /* Remove underline initially */
+  color: #333;                            /* Dark link color */
+}
+
+nav a:hover {
+  color: #5f6db3;                        /* Blue hover for interactivity */
+  text-decoration: underline;             /* Underline appears on hover */
+}
+
+/* ==============================
+   Footer Styles
+   ============================== */
+footer {
+  text-align: center;
+  margin-top: 4rem;                       /* Space above footer */
+  font-size: 0.9rem;                      /* Slightly smaller font */
+  color: #777;                            /* Light grey text */
+}
+
+footer a {
+  text-decoration: none;                  /* Remove underline on normal links */
+  color: #333;
+  margin: 0 0.3rem;                       /* Small spacing between footer links */
+}
+
+footer a:hover {
+  color: #5f6db3;                         /* Hover color */
+  text-decoration: underline;             /* Text links underline on hover */
+}
+
+/* Optional: spacing for first footer link (About Me) */
+footer p a:first-child {
+  margin-right: 0.6rem;
+}
+
+/* ==============================
+   Social Icon Styling
+   ============================== */
+.social-icons a {
+  text-decoration: none;                  /* Remove default underline */
+  margin: 0 8px;                          /* Space between icons */
+  color: #333;                             /* Default icon color */
+  font-size: 1.2rem;                       /* Slightly larger than normal text */
+  transition: color 0.2s ease-in-out;      /* Smooth color change on hover */
+}
+
+.social-icons a:hover {
+  color: #5f6db3;                        /* Only icon color changes */
+  text-decoration: none;                  /* Ensure icons never underlined */
+}
+
+.social-icons i {
+  font-family: "Font Awesome 6 Brands";   /* Ensure brand icons display correctly */
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: middle;                 /* Align icons with text baseline */
+}
+
+/* ==============================
+   Articles / Blog Posts
+   ============================== */
+article {
+  margin-bottom: 2.5rem;                  /* Space between posts */
+  padding-bottom: 1rem;                   /* Inner bottom padding */
+  border-bottom: 1px solid #ddd;          /* Subtle separator between posts */
+}
+
+article h2, article h3 {
+  margin: 0;
+}
+
+article h2 {
+  font-size: 1.8rem;                      /* Full post page title */
+}
+
+article h3 {
+  font-size: 1.5rem;                      /* Homepage post preview title */
+}
+
+article p {
+  margin: 0.5rem 0;                        /* Paragraph spacing */
+}
+
+/* Links inside post previews */
+#post-list a {
+  color: #333;
+  text-decoration: none;
+}
+
+#post-list a:hover {
+  color: #5f6db3;
+  text-decoration: underline;
+}
+
+/* ==============================
+   Featured Images
+   ============================== */
+/* Homepage cropped thumbnails */
+#post-list .post-featured img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;                       /* Crop without distortion */
+  display: block;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Soft shadow for depth */
+}
+
+/* Full post page images */
+.post-featured-post img {
+  width: 100%;
+  height: auto;                            /* Maintain aspect ratio */
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ==============================
+   Pagination Styles
+   ============================== */
+#pagination {
+  text-align: center;
+  margin-top: 2rem;                        /* Space above pagination buttons */
+}
+
+#pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+#pagination button:hover:not(:disabled) {
+  background-color: #5f6db3;               /* Highlight on hover */
+  color: #fff;
+}
+
+#pagination button:disabled {
+  opacity: 0.5;                             /* Grey out disabled buttons */
+  cursor: default;
+}
+
+/* ==============================
+   Back to Page Link Styling
+   ============================== */
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.back-link:hover {
+  color: #5f6db3;
+  text-decoration: underline;
+}
+
+/* ==============================
+   Back to Page Link Styling
+   ============================== */
+.back-link {
+  display: inline-block;
+  margin: 1rem 0;              /* Space above/below */
+  color: #333;                  /* Base color */
+  text-decoration: none;        /* Remove underline initially */
+  font-weight: bold;            /* Slightly bolder for visibility */
+  transition: color 0.2s, text-decoration 0.2s; /* Smooth hover transition */
+}
