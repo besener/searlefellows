@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;                 /* Space between buttons */
+  gap: 0.5rem;                 /* Space between buttons */
   flex-wrap: wrap;           /* Wrap on small screens */
   margin-top: 1rem;
   margin-bottom: 3rem;       /* Space between nav and body */
@@ -52,7 +52,8 @@ nav a {
   text-decoration: none;                  /* Remove underline initially */
   color: #333;                            /* Dark link color */
   padding: 0.6rem 1rem;
-  border-radius: 6px;
+  padding: 0.45rem 0.7rem;                /* Slightly smaller buttons */
+  border-radius: 4px;
   background-color: #f2f2f2;
   transition: all 0.25s ease;
 }
